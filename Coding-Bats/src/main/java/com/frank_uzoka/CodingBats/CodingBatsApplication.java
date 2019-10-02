@@ -1,4 +1,4 @@
-package com.trilogyed.CodingBats;
+package com.frank_uzoka.CodingBats;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

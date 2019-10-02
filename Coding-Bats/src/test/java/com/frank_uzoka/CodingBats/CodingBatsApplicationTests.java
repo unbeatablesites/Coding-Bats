@@ -1,4 +1,4 @@
-package com.trilogyed.CodingBats;
+package com.frank_uzoka.CodingBats;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

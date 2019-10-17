@@ -2,24 +2,19 @@ package com.frank_uzoka.CodingBats;
 
 public class fix23 {
 
-    public static void main(String[] args) {
+    public int[] fix23(int[] nums) {
 
-        int[] array = {1,2,3,4,5,6};
+        int[] newArray = {nums[0], nums[1], nums[2]};
 
-        for(int i = 0; i< array.length; i++){
-
-            System.out.println(array.length);
-
+        if(nums[0] == 2 && nums[1] == 3){
+            newArray[1] = 0;
         }
 
-
-
-
+        if(nums[1] == 2 && nums[2] == 3){
+            newArray[2] = 0;
+        }
+        return newArray;
     }
-
-
-
-
 
 
 }

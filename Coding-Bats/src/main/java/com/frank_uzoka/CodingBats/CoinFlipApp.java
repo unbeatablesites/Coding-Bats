@@ -8,9 +8,14 @@ import java.util.Scanner;
 public class CoinFlipApp {
 
     public static void main(String[] args) {
-        System.out.println("Please enter a number");
-        Scanner Scan = new Scanner(System.in);
+        System.out.println("Please enter Haeds of Tales");
 
+        Scanner Scan = new Scanner(System.in);
+        String userInput = Scan.nextLine();
+
+        if(userInput.equals("Heads")){
+            System.out.println("You Picked Heads");
+        }
 
         String heads = "Heads";
         String tales = "Tales";

@@ -13,7 +13,7 @@ public class CoinFlipApp {
         System.out.println("Please enter Heads of Tales");
 
         Scanner Scan = new Scanner(System.in);
-        System.out.println(userInput);
+        userInput = Scan.nextLine();
         String heads = "Heads";
         String tales = "Tales";
         if(userInput == heads){

@@ -14,6 +14,7 @@ public class CoinFlipApp {
 
         Scanner Scan = new Scanner(System.in);
         userInput = Scan.nextLine();
+        System.out.println(userInput);
         String heads = "Heads";
         String tales = "Tales";
         if(userInput == heads){

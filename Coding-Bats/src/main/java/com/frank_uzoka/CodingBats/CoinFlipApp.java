@@ -13,10 +13,11 @@ public class CoinFlipApp {
 
         Random rnd = new Random();
 
-        System.out.println(rnd.nextInt((2 - 1) + 1) + 1);
+        int i = rnd.nextInt((2 - 1) + 1) + 1;
 
-        System.out.println(heads);
-        System.out.println(tales);
+
+        System.out.println(i);
+
     }
 
 

@@ -8,21 +8,19 @@ import java.util.Scanner;
 public class CoinFlipApp {
 
     public static void main(String[] args) {
-
+        Random rnd = new Random();
         String userInput = null;
         System.out.println("Please enter Heads of Tales");
 
         Scanner Scan = new Scanner(System.in);
         userInput = Scan.nextLine();
-        System.out.println(userInput);
-
-        if(userInput == "heads"){
+        if(userInput.equals("heads")){
             System.out.println("You Picked Heads");
         }
 
 
 
-//        Random rnd = new Random();
+//
 //
 //        int i = rnd.nextInt((2 - 1) + 1) + 1;
 //

@@ -16,21 +16,21 @@ public class CoinFlipApp {
         userInput = Scan.nextLine();
         System.out.println(userInput);
 
-        if(userInput == heads){
+        if(userInput == "heads"){
             System.out.println("You Picked Heads");
         }
 
 
 
-        Random rnd = new Random();
-
-        int i = rnd.nextInt((2 - 1) + 1) + 1;
-
-        if(i == 1){
-            System.out.println(heads);
-        }else{
-            System.out.println(tales);
-        }
+//        Random rnd = new Random();
+//
+//        int i = rnd.nextInt((2 - 1) + 1) + 1;
+//
+//        if(i == 1){
+//            System.out.println(heads);
+//        }else{
+//            System.out.println(tales);
+//        }
 
 
 

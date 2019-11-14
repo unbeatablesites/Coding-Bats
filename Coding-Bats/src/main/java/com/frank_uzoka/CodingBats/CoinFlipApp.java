@@ -16,19 +16,18 @@ public class CoinFlipApp {
         userInput = Scan.nextLine();
         if(userInput.equals("heads")){
             System.out.println("You Picked Heads");
+            int i = rnd.nextInt((2 - 1) + 1) + 1;
+            if(i == 1){
+                System.out.println("heads");
+            }else if(i == 2){
+                System.out.println("tales");
+            }else System.out.println("You did not enter heads or tales");
         }
 
 
 
 //
-//
-//        int i = rnd.nextInt((2 - 1) + 1) + 1;
-//
-//        if(i == 1){
-//            System.out.println(heads);
-//        }else{
-//            System.out.println(tales);
-//        }
+
 
 
 

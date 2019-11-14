@@ -3,10 +3,14 @@ package com.frank_uzoka.CodingBats;
 import org.springframework.web.server.session.HeaderWebSessionIdResolver;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class CoinFlipApp {
 
     public static void main(String[] args) {
+
+        Scanner Scan = new Scanner(System.in);
+
 
         String heads = "Heads";
         String tales = "Tales";

@@ -15,8 +15,13 @@ public class CoinFlipApp {
 
         int i = rnd.nextInt((2 - 1) + 1) + 1;
 
+        if(i == 1){
+            System.out.println(heads);
+        }else{
+            System.out.println(tales);
+        }
 
-        System.out.println(i);
+
 
     }
 

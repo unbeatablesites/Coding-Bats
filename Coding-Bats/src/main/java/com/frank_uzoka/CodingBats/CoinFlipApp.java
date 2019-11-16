@@ -24,7 +24,7 @@ public class CoinFlipApp {
                     System.out.println("You win! Heads was the correct guess");
                 } else if (i == 2) {
                     System.out.println("Sorry tales was the correct guess.");
-                } else System.out.println("Please enter Heads of Tales");
+                } else System.out.println("Please enter Heads or Tales");
             }
 
             if (userInput.equals("tales")) {

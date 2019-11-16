@@ -34,13 +34,10 @@ public class CoinFlipApp {
                     System.out.println("Tales was the correct guess");
                 } else if (i == 2) {
                     System.out.println("Heads was the correct guess sorry");
+                    System.out.println("Please enter Heads of Tales");
                 } else System.out.println("You did not enter heads or tales");
             } else {
-                System.out.println("Please enter heads or tales");
-            }
-
-
-//
+                System.out.println("Please enter heads or tales"); }
 
 
         }while (userInput != "heads" || userInput != "tales");

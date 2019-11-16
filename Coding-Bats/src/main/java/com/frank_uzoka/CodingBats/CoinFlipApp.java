@@ -31,7 +31,7 @@ public class CoinFlipApp {
                 System.out.println("You Picked Tales");
                 int i = rnd.nextInt((2 - 1) + 1) + 1;
                 if (i == 1) {
-                    System.out.println("You win! Tales was the correct guess");
+                    System.out.println("You win! Tales was the correct guess.");
                 } else if (i == 2) {
                     System.out.println("Heads was the correct guess sorry");
                     System.out.println("Please enter Heads of Tales");

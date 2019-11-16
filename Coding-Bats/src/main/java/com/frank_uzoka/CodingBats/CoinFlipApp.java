@@ -16,7 +16,7 @@ public class CoinFlipApp {
 
             Scanner Scan = new Scanner(System.in);
         do {
-            userInput = Scan.nextLine();
+            userInput = Scan.nextLine().toLowerCase();
             if (userInput.equals("heads")) {
                 System.out.println("You Picked Heads");
                 int i = rnd.nextInt((2 - 1) + 1) + 1;

@@ -34,6 +34,10 @@ public class CoinFlipApp {
             }else System.out.println("You did not enter heads or tales");
         }
 
+        else{
+            System.out.println("Please enter heads or tales");
+        }
+
 
 
 //

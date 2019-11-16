@@ -37,7 +37,7 @@ public class CoinFlipApp {
                     System.out.println("Please enter Heads of Tales");
                 } else System.out.println("Please enter heads or tales");
             } else {
-                System.out.println("You did not enter heads or tales please try again!"); }
+                System.out.println("Please enter Heads of Tales!"); }
 
 
         }while (userInput != "heads" || userInput != "tales");

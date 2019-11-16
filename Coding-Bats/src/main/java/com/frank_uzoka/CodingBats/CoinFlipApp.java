@@ -43,7 +43,7 @@ public class CoinFlipApp {
 //
 
 
-        }while (userInput != "heads" ||);
+        }while (userInput != "heads" || userInput != "tales");
 
     }
 

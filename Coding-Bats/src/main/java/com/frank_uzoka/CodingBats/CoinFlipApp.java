@@ -23,7 +23,7 @@ public class CoinFlipApp {
                 if (i == 1) {
                     System.out.println("You win! Heads was the correct guess");
                 } else if (i == 2) {
-                    System.out.println("tales was the correct guess");
+                    System.out.println("tales was the correct guess.");
                 } else System.out.println("Please enter Heads of Tales");
             }
 

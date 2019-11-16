@@ -32,14 +32,12 @@ public class CoinFlipApp {
                 int i = rnd.nextInt((2 - 1) + 1) + 1;
                 if (i == 1) {
                     System.out.println("You win! Tales was the correct guess.");
+                    System.out.println("Please enter Heads of Tales");
                 } else if (i == 2) {
                     System.out.println("Heads was the correct guess sorry");
                     System.out.println("Please enter Heads of Tales");
                 } else System.out.println("Please enter heads or tales");
-            } else {
-                System.out.println("Please enter Heads of Tales!"); }
-
-
+            }
         }while (userInput != "heads" || userInput != "tales");
 
     }
